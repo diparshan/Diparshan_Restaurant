@@ -8,21 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		65282EFB2BA0B0F300AE8144 /* Diparshan_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282EFA2BA0B0F300AE8144 /* Diparshan_FinalApp.swift */; };
-		65282EFD2BA0B0F300AE8144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282EFC2BA0B0F300AE8144 /* ContentView.swift */; };
 		65282EFF2BA0B0F600AE8144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65282EFE2BA0B0F600AE8144 /* Assets.xcassets */; };
 		65282F022BA0B0F600AE8144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65282F012BA0B0F600AE8144 /* Preview Assets.xcassets */; };
-		65282F042BA0B0F600AE8144 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F032BA0B0F600AE8144 /* Persistence.swift */; };
 		65282F072BA0B0F600AE8144 /* Diparshan_Final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65282F052BA0B0F600AE8144 /* Diparshan_Final.xcdatamodeld */; };
+		65282F112BA0B47400AE8144 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F102BA0B47400AE8144 /* Restaurant.swift */; };
+		65282F132BA0B65F00AE8144 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F122BA0B65F00AE8144 /* Persistance.swift */; };
+		65282F182BA0B90700AE8144 /* CoreDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F172BA0B90700AE8144 /* CoreDBHelper.swift */; };
+		65282F1A2BA0B97200AE8144 /* RestaurantMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F192BA0B97200AE8144 /* RestaurantMO.swift */; };
+		65282F1C2BA0C21300AE8144 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F1B2BA0C21300AE8144 /* HomeView.swift */; };
+		65282F1E2BA0DEC000AE8144 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F1D2BA0DEC000AE8144 /* DetailView.swift */; };
+		65282F202BA0EC2E00AE8144 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F1F2BA0EC2E00AE8144 /* LocationHelper.swift */; };
+		65282F222BA1039500AE8144 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65282F212BA1039500AE8144 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65282EF72BA0B0F300AE8144 /* Diparshan_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diparshan_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65282EFA2BA0B0F300AE8144 /* Diparshan_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diparshan_FinalApp.swift; sourceTree = "<group>"; };
-		65282EFC2BA0B0F300AE8144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		65282EFE2BA0B0F600AE8144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65282F012BA0B0F600AE8144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		65282F032BA0B0F600AE8144 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		65282F062BA0B0F600AE8144 /* Diparshan_Final.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diparshan_Final.xcdatamodel; sourceTree = "<group>"; };
+		65282F102BA0B47400AE8144 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		65282F122BA0B65F00AE8144 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		65282F172BA0B90700AE8144 /* CoreDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDBHelper.swift; sourceTree = "<group>"; };
+		65282F192BA0B97200AE8144 /* RestaurantMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMO.swift; sourceTree = "<group>"; };
+		65282F1B2BA0C21300AE8144 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		65282F1D2BA0DEC000AE8144 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		65282F1F2BA0EC2E00AE8144 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		65282F212BA1039500AE8144 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +67,11 @@
 		65282EF92BA0B0F300AE8144 /* Diparshan_Final */ = {
 			isa = PBXGroup;
 			children = (
+				65282F0F2BA0B1FA00AE8144 /* Controller */,
+				65282F0E2BA0B1F100AE8144 /* View */,
+				65282F0D2BA0B1EB00AE8144 /* Model */,
 				65282EFA2BA0B0F300AE8144 /* Diparshan_FinalApp.swift */,
-				65282EFC2BA0B0F300AE8144 /* ContentView.swift */,
 				65282EFE2BA0B0F600AE8144 /* Assets.xcassets */,
-				65282F032BA0B0F600AE8144 /* Persistence.swift */,
 				65282F052BA0B0F600AE8144 /* Diparshan_Final.xcdatamodeld */,
 				65282F002BA0B0F600AE8144 /* Preview Content */,
 			);
@@ -71,6 +84,35 @@
 				65282F012BA0B0F600AE8144 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65282F0D2BA0B1EB00AE8144 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65282F102BA0B47400AE8144 /* Restaurant.swift */,
+				65282F192BA0B97200AE8144 /* RestaurantMO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65282F0E2BA0B1F100AE8144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65282F1B2BA0C21300AE8144 /* HomeView.swift */,
+				65282F1D2BA0DEC000AE8144 /* DetailView.swift */,
+				65282F212BA1039500AE8144 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65282F0F2BA0B1FA00AE8144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65282F122BA0B65F00AE8144 /* Persistance.swift */,
+				65282F172BA0B90700AE8144 /* CoreDBHelper.swift */,
+				65282F1F2BA0EC2E00AE8144 /* LocationHelper.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65282F042BA0B0F600AE8144 /* Persistence.swift in Sources */,
-				65282EFD2BA0B0F300AE8144 /* ContentView.swift in Sources */,
+				65282F112BA0B47400AE8144 /* Restaurant.swift in Sources */,
+				65282F1E2BA0DEC000AE8144 /* DetailView.swift in Sources */,
+				65282F1C2BA0C21300AE8144 /* HomeView.swift in Sources */,
+				65282F1A2BA0B97200AE8144 /* RestaurantMO.swift in Sources */,
 				65282EFB2BA0B0F300AE8144 /* Diparshan_FinalApp.swift in Sources */,
 				65282F072BA0B0F600AE8144 /* Diparshan_Final.xcdatamodeld in Sources */,
+				65282F202BA0EC2E00AE8144 /* LocationHelper.swift in Sources */,
+				65282F222BA1039500AE8144 /* MapView.swift in Sources */,
+				65282F182BA0B90700AE8144 /* CoreDBHelper.swift in Sources */,
+				65282F132BA0B65F00AE8144 /* Persistance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

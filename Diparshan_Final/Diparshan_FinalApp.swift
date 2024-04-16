@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct Diparshan_FinalApp: App {
-    let persistenceController = PersistenceController.shared
+    let coreDBHelper = CoreDBHelper(moc: PersistanceController.shared.container.viewContext)
+    let locationHelper = LocationHelper()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            HomeView()
+                .environmentObject(coreDBHelper)
+                .environmentObject(locationHelper)
         }
     }
 }
